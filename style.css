@@ -27,21 +27,60 @@ nav ul{
 
 ul{
     list-style: none;
+    font-family: var(--ff-Be-Vietnam-Pro);
+}
+
+nav ul:hover{
+    color: var(--Gray-950);
+    cursor: pointer;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .menu-icon{
     display: none;
 }
 
-.nav-button{
-    border: none;
-}
+
+
+
+   .nav-button button{
+      background-color: var(--orange-400); 
+      padding: 12px 28px;
+      border: none;
+      border-radius: 100rem; 
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--Gray-50);
+    }
+
+    @media (max-width: 768px) {
+   
+
+        .container{
+            padding: 3rem 1.5rem;
+        }
+        nav ul{
+            display: none;
+        }
+
+        .nav-button{
+            display: none;
+        }
+        .menu-icon{
+            display: block;
+          
+        }
+
+        nav{
+            justify-content: space-between;
+        }
+    }
 
 
 
