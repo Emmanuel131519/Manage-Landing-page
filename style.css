@@ -16,7 +16,16 @@
 
 .container{
     padding: 2rem 6.25rem;
+    max-width: 1400px;
+    margin: 0 auto;
 }
+
+body{
+    background-image: url(assets/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 nav ul{
      display: flex;
@@ -28,9 +37,10 @@ nav ul{
 ul{
     list-style: none;
     font-family: var(--ff-Be-Vietnam-Pro);
+
 }
 
-nav ul:hover{
+ li:hover{
     color: var(--Gray-950);
     cursor: pointer;
 }
@@ -38,7 +48,7 @@ nav ul:hover{
 nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 3rem;
+    align-items: center;
 }
 
 .menu-icon{
@@ -55,8 +65,12 @@ nav{
       border-radius: 100rem; 
       font-size: 12px;
       font-weight: 600;
-      cursor: pointer;
       color: var(--Gray-50);
+    }
+
+    .nav-button button:hover{
+       opacity: 50%;
+          cursor: pointer;
     }
 
     @media (max-width: 768px) {
