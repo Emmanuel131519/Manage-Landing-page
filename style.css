@@ -123,6 +123,13 @@ font-family: var(--ff-Be-Vietnam-Pro);
 width: 90%;
 }
 
+.section-2-div-2{
+        display: flex;
+        width: 90%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .section-2-div-1 p{
     color: var(--Gray-950);
     font-family: var(--ff-Be-Vietnam-Pro);
@@ -143,9 +150,25 @@ width: 100%;
     color: var(--Gray-950);
     font-family: var(--ff-Be-Vietnam-Pro);
     width: 100%;
+
     line-height: 1.5rem;
     font-size: 1rem;
     padding-top: 1rem;
+}
+
+.section-2-div-2 button{
+              background-color: var(--orange-400); 
+      padding: 12px 28px;
+      border: none;
+      border-radius: 100rem; 
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--Gray-50);
+}
+
+.section-2-div-2-div{
+    display: flex;
+    gap: 2rem;
 }
 
 
