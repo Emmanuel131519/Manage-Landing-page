@@ -21,7 +21,7 @@
 }
 
 body{
-    background-image: url(assets/bg-simplify-section-desktop.svg);
+    background-image: url(assets/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -182,8 +182,67 @@ width: 100%;
     gap: 2rem;
 }
 
+.section-3{
+    padding: 4rem 0;
+}
 
+.section-3-h1{
+    text-align: center;
+    font-size: 2rem;
+}
 
+.section-3 h1{
+   color: var(--Blue-950);
+       font-family:var(--ff-Be-Vietnam-Pro);
+       padding: 2rem 0;
+}
+
+.section-3-div{
+    display: flex;
+    text-align: center;
+    gap: 3rem;
+    padding: 5rem 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-3-div-1 img{
+width: 15%;
+}
+
+.section-3-div-1 p{
+    color: var(--Gray-950);
+    line-height: 1.5rem;
+    width: 95%;
+}
+
+.section-3-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-button button{
+              background-color: var(--orange-400); 
+      padding: 12px 28px;
+      border: none;
+      border-radius: 100rem; 
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--Gray-50);
+
+}
+
+.section-3-button button:hover{
+       opacity: 50%;
+       cursor: pointer;
+    }
+
+.section-4{
+    background-image: url(assets/bg-simplify-section-desktop.svg);
+    background-color: var(--Orange-400);
+background-size: cover;
+}
 
 
 
@@ -191,8 +250,8 @@ width: 100%;
    
 body{
     background-image: url(assets/bg-simplify-section-mobile.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
 }
 
         .container{
@@ -289,6 +348,30 @@ height: 1%;
 
       padding: 7px 20px;
 
+}
+
+#section-3-div-1{
+    display: none;
+}
+
+#section-3-div-2{
+    display: none;
+}
+
+
+.section-3-h1{
+width: 100%;
+font-size: 1.5rem;
+}
+
+.section-3-div-1{
+margin: 0 auto;
+}
+
+
+.section-3-div p{
+    width: 80%;
+    margin: 0 auto;
 }
 
 
